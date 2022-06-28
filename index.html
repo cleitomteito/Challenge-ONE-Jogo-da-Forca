@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da forca</title>
+
+    <!--Fonte do Google Foonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    
+    <!--Icones do linkedIn e GitHub-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" crossorigin="anonymous"/>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+  </head>
+  <body>
+
+    <!--Logo da Alura-->
+
+    <a href="https://www.alura.com.br/"><img src="img/logo.svg" class="logo"></a>
+
+    <!--Página inicial-->
+
+    <div id="div-desaparece" class="botoes-home">
+      <a href="#forca"><button class="btn-iniciar" id="iniciar-jogo" onclick="iniciarJogo()">Começar a jogar</button>
+      </a>
+      <button class="btn-palavra" id="nova-palavra" onclick="mostrarTelaAdicionarPalavra()">Adicionar nova palavra</button> 
+    </div>
+
+    <!--Página de adicionar palavras-->
+
+     <div id= "adicionar-palavra" class="palavra-nova">
+      <input class="text-input" type="text" id="input-nova-palavra"  maxlength="8" placeholder="Digite uma palavra">
+      <div class="form-group">
+        <img src="img/!.png" class="img-alerta">
+        <label for="input-texto"> Máx. 8 caracteres</label>
+      </div>
+      <div class="botoes-div">
+        <button class="btn-azul-salvar" id="btn-salvar" onclick="salvarPalavra()">Salvar e começar</button>
+        <button class="btn-branco-cancelar" id="btn-cancelar">Cancelar</button>
+      </div> 
+    </div>
+
+    <!--Desenho da forca pelo Canvas-->
+
+    <div id="div-aparece-forca" class="canvas">
+      <canvas id="forca" height="860px" width="1200"></canvas>
+      <div class="sublinhado">
+
+      </div>
+      <div class="botoes-div-canvas">
+        <button class="btn-azul" id="btn-novo-jogo">Novo jogo</button>
+        <button class="btn-branco" id="btn-sair">Desistir</button>
+      </div>
+    </div>
+
+    <!--Rodapé da página-->
+
+    <footer>
+        <strong>Desenvolvido por:</strong> &#169 Cleitom Pereira
+        <a target="_blanck" href="https://github.com/cleitomteito">
+            <i class="fa-brands fa-github"></i>     <!--icone do GitHub-->
+        </a>
+        <a target="_blanck" href="https://www.linkedin.com/in/cleitom-pereira-da-silva-a24171b2/">
+            <i class="fa-brands fa-linkedin"></i>   <!--icone do LinkedIn-->
+        </a>
+    </footer>
+
+    <script type="text/javascript" src="/script/forca.js"></script>
+     <script type="text/javascript" src="/script/canvas.js"></script>
+  </body>
+</html>

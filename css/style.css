@@ -1,0 +1,260 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #F3F5FC;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 31.09px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.sublinhado{
+    display:flex;
+}
+.desenharLinhas{
+    border-bottom: solid 4px #0A3871;
+    width: 30px;
+    margin: 10px;
+}
+
+.esconderLetra{
+    display: none;
+    font-size: 18px;
+}
+
+.btn-iniciar {
+    box-sizing: border-box;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    left: 562px;
+    top: 394px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn-palavra{
+    box-sizing: border-box;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 317px;
+    height: 102px;
+    left: 562px;
+    top: 528px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+}
+
+.text-input{
+    position: absolute;
+    width: 413px;
+    height: 48px;
+    left: 376px;
+    top: 256px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+::placeholder { color: #0A3871; text-transform:lowercase;}
+  
+.text-input:focus { 
+      border: none;
+      outline: none;
+}
+
+.img-alerta{
+    position: absolute;
+    left: 376px;
+    top: 668px;
+    width: 16px;
+    height: 16px;
+}
+
+label {
+    position: absolute;
+    left: 400px;
+    top: 667px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+}
+
+.btn-azul-salvar{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    left: 376px;
+    top: 701px;
+
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-branco-cancelar{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    right: 376px;
+    top: 701px;
+
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.canvas {
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px;
+}
+
+.btn-azul{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    left: 376px;
+    top: 904px;
+
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-branco{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    left: 732px;
+    top: 904px;
+
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+.fa-github{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.fa-linkedin{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
