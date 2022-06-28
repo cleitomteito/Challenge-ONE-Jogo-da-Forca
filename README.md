@@ -1,10 +1,10 @@
 # Challenge-ONE-Jogo-da-Forca
 
-## Jogo da Forca
+## Jogo da Forca :video_game:
 
 Segundo desafio da Trilha de Iniciante em Programação, proposto pela Alura em parceria com o Projeto Oracle Next Education.
 
-**Requisitos:**
+**Requisitos:** :clipboard:
 
 - Deve funcionar só com letras maiúsculas;
 - Não devem ser utilizadas letras com acentos nem caracteres especiais;
@@ -16,5 +16,5 @@ Segundo desafio da Trilha de Iniciante em Programação, proposto pela Alura em 
 - As letras erradas devem aparecer na tela, mas não podem aparecer repetidamente;
 - As letras corretas devem ser mostradas na tela acima dos traços, nas posições corretas em relação à palavra.
 
-**Extras:**
+**Extras:** :trophy:
 - A página deve conter um campo para inserção de texto com a finalidade de adicionar novas palavras ao jogo, e um botão "Adicionar nova palavra".
